@@ -1,6 +1,6 @@
-name: SonarCloud Scan
+name: Tom Scan
 description: >
-  Scan your code with SonarCloud to detect bugs, vulnerabilities and code smells
+  Scan your code with Tom to detect bugs, vulnerabilities and code smells
   in more than 25 programming languages.
 branding:
   icon: check
@@ -10,7 +10,7 @@ runs:
   image: Dockerfile
 inputs:
   args:
-    description: Additional arguments to the sonarcloud scanner
+    description: Additional arguments to the tom scanner
     required: false
   projectBaseDir:
     description: Set the sonar.projectBaseDir analysis property
